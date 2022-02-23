@@ -1,0 +1,16 @@
+@font-face {
+    font-family: everyrun;
+    src: url(/fonts/EveryRun-Regular.ttf);
+}
+@font-face {
+    font-family: opensans-regular;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: opensans-bold;
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: opensans-italic;
+    src: url(/fonts/OpenSans-Italic.ttf);
+}
