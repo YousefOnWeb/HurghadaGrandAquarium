@@ -1,16 +1,217 @@
 @font-face {
     font-family: everyrun;
-    src: url(/fonts/EveryRun-Regular.ttf);
+    src: url(../fonts/EveryRun-Regular.ttf);
 }
 @font-face {
     font-family: opensans-regular;
-    src: url(/fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
     font-family: opensans-bold;
-    src: url(/fonts/OpenSans-Bold.ttf);
+    src: url(../fonts/OpenSans-Bold.ttf);
 }
 @font-face {
     font-family: opensans-italic;
-    src: url(/fonts/OpenSans-Italic.ttf);
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: quartzo-bold;
+    src: url(../fonts/QuartzoBold.ttf);
+}
+
+.float-clearer{
+    clear: both;
+}
+
+* {
+	padding : 0;
+	margin : 0;
+}
+
+.always-at-top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar-links {
+    list-style-type: none;
+}
+
+.nav-bar-link{
+    font-family: everyrun;
+    font-size: 0.9vmax;
+    float: left;
+}
+
+.nav-bar-main-link{
+    float: left;
+}
+
+.nav-bar-link a:hover{
+    text-decoration: underline;
+}
+
+.nav-bar-link a{
+    transition: color 0.25s ease-in;
+    padding-left: 0.7vmax;
+    padding-right: 0.7vmax;
+    text-align: center;
+    color: rgb(40, 41, 120);
+    text-decoration: none;
+}
+
+.nav-bar-main-link a{
+    transition: 0.1s ease-in;
+    padding-right: 1.7vmax;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: quartzo-bold;
+    font-size: 2vmax;
+}
+
+.thinner-navbar-links{
+    font-size: 0.9vmax !important;
+}
+
+.thinner-navbar-tile{
+    background-color: rgba(0, 155, 206, 0.953) !important;
+    padding-top: 0.35vmax !important;
+    padding-bottom: 0.15vmax !important;
+}
+
+.thinner-logo{
+    font-size: 1.3vmax !important;
+}
+
+.content{
+    padding-left: 1.7vmax;
+    padding-right: 1.7vmax;
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+button{
+    border: none;
+    margin-top: 1.2vmax;
+    margin-bottom: 1.2vmax;
+    font-family: everyrun;
+    font-size: 1.1vmax;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.get-ticket-button{
+    color: white;
+    background-color: rgb(0, 180, 216);
+    padding: 0.45vmax;
+    border-radius: 15px;
+    transition: background-color 0.15s ease;
+}
+
+.get-ticket-button:hover{
+    box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.098);
+    transition: background-color 0.85s ease;
+    transition: box-shadow 0.2s ease;
+    background-color: rgb(32, 196, 228);
+}
+
+.active{
+    color: white !important;
+}
+
+.see-below-button{
+    background: none;
+    color: rgb(40, 41, 120); 
+}
+
+.see-below-button:hover{
+    text-decoration: underline;
+}
+
+.section-title{
+    color: rgb(40, 41, 120);
+    font-family: everyrun;
+    font-size: 2vmax;
+    padding-top: 3vmax;
+    padding-bottom: 3vmax;
+}
+
+h3{
+    color: rgb(40, 41, 120);
+    font-family: everyrun;
+    letter-spacing: 0.03ex;
+    font-size: 1.3vmax;
+    padding-top: 1.65vmax;
+    padding-bottom: 1.65vmax;
+}
+
+img{
+    border-radius: 0.1vmax;
+    margin-bottom: 2.3vmax;
+    width: 75%;
+    height:auto;
+}
+
+.section-describtion{
+    color: rgb(40, 41, 120);
+    font-family: everyrun;
+    letter-spacing: 0.09ex;
+    font-size: 1vmax;
+    line-height: 200%;
+    padding-bottom: 1.3vmax;
+}
+
+.main-title{
+    font-family: everyrun;
+    padding-top: 1.5vmax !important;
+    padding-bottom: 1.5vmax !important;
+    font-size: 4vmax !important;
+    color: rgb(40, 41, 120);
+
+}
+
+.main-subtitle{
+    font-size: 1.5vmax;
+    color: rgb(40, 41, 120);
+    font-family: everyrun;
+    letter-spacing: 0.07ex;
+}
+
+
+.main-page-contnet{
+    padding-top: 6vmax;
+    padding-bottom: 6vmax;
+}
+
+.navbar-tile {
+    transition: 0.1s ease-in;
+    background-color: rgb(0, 155, 206);
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    
+}
+.get-ticket-tile{
+    background-image: url(../images/coverD.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+.whale-valley-tile{
+    background-color: #94B3FD;
+}
+.underwater-tunnel-tile{
+    background-color: #085E7D;
+}
+.section-title-underwater-tunnel, .section-describtion-underwater-tunnel{
+    color: #DFF6FF;
+}
+.marine-aquarium-tile{
+    background-color: lightpink;
+}
+.place-policies-tile{
+    background-color: #ffe791;
 }
