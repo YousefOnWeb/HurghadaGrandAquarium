@@ -36,6 +36,24 @@ for(let i = 0 ; i<textForEachNavItem.length; i++){
 // making nav bar appear back again after appending
 navListHTMLElement.style.display = "block";
 
+
+const navbarLinksElements = document.querySelectorAll(".nav-bar-link a");
+navbarLinksElements.forEach(
+
+    function(linkElement, indexOfThatElement){
+        linkElement.addEventListener('click', function(){
+            navbarLinksElements.forEach(
+                function(el){
+                    el.classList.remove("active");
+                }
+            )
+            linkElement.classList.add('active');
+        })
+    }
+
+)
+
+
 //--------------------------------------------------------
 
 
@@ -53,13 +71,11 @@ let resizeNavbarAccordingToViewLocation = function(){
 
 // following part responsible for highlighting navbar item when section is in viewport
 function isInsideView(element) {
-    var rect = element.getBoundingClientRect();
+    let rect = element.getBoundingClientRect();
 
     return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /* or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
+        rect.top > -window.innerHeight*0.4 &&
+        rect.top < window.innerHeight*0.65
     );
 }
 
@@ -67,16 +83,18 @@ function isInsideView(element) {
 window.onscroll = function(){
     resizeNavbarAccordingToViewLocation();
 
-    for(let i = 0 ; i<textForEachNavItem.length+1 ; i++){
-        let elementToBeChecked = document.querySelectorAll(".section-start")[i];
-        if(isInsideView(elementToBeChecked)){
-            document.querySelectorAll(".nav-bar-link a")[i].classList.add("active");
+    document.querySelectorAll(".tile").forEach(
+        function(tileElement, tileIndex){
+            if(isInsideView(tileElement)){
+                //tileElement.style.backgroundColor = "red";
+                tileElement.classList.add("active-section");
+            }
+            else{
+                tileElement.classList.remove("active-section");
+                //tileElement.style.backgroundColor = "white";
+            }
         }
-        else{
-            document.querySelectorAll(".nav-bar-link a")[i].classList.remove("active");
-        }
-    }
-
+    )
 }
 
 

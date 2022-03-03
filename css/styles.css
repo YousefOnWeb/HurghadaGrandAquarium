@@ -124,6 +124,10 @@ button:hover{
     color: white !important;
 }
 
+.active-section{
+    border: 1.5vmax solid white !important;
+}
+
 .see-below-button{
     background: none;
     color: rgb(40, 41, 120); 
