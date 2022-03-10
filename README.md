@@ -16,9 +16,9 @@
 
 ## Technical:
 
-1. Project folder size: 3.1 MB
+1. Project size: 3.1 MB
 
-2. Stack used: HTML, CSS, Raw JS (no jquery)
+2. Used: HTML, CSS, Raw JS (no jquery)
 
 
 
