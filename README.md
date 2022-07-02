@@ -19,7 +19,7 @@
 
 1. Project size: 3.1 MB
 
-2. Used: HTML, CSS, Raw JS (no jquery)
+2. Used: HTML, CSS, Raw JS
 
 ### Notes:
 1. Items in navigation bar are dynamically generated from the page sections
