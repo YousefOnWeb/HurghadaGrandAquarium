@@ -29,7 +29,7 @@
 
 ##### All images are loyalty free.
 
-##### Fonts are some free for any use and another free only for non-commercial use (which is both ok).
+##### Fonts are some free for any use and other free only for non-commercial use (which is both ok).
 
 ##### All vector graphics used to generate pictures are also royalty free.
 
