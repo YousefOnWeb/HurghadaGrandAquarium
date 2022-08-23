@@ -1,4 +1,4 @@
-# Project: Hurghada Grand Aquarium Imaginary Landing Page
+# Hurghada Grand Aquarium Imaginary Landing Page
 
 ## Introduction:
 
