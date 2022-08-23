@@ -9,7 +9,7 @@ The Hurghada Grand Aquarium is one of the attractive places in Hurghada, Egypt t
 * To from the 'skeleton' of the page (i.e. specify the main design elements and their basic layout).
 ### CSS:
 * To give those elements their style
-### JavaScript and The Dom:
+### JavaScript and The DOM:
 The DOM is leveraged using JavaScript:
 * To make the webpage changes its appearance according to how the user moves in it.
 * To automatically build parts of the webpage depending on other main parts already existing -dynamically generating web elements- (e.g. the navigation bar at the top is automatically generated using the page sections already existing)
