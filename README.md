@@ -1,4 +1,4 @@
-## Hurghada Grand Aquarium Imaginary Landing Page
+## Hurghada Grand Aquarium Mock Landing Page
 The Hurghada Grand Aquarium is one of the attractive places in Hurghada, Egypt that that has attracted many families over years and still making people have fun.<br> This webpage is an imaginary, super-simple, landing page for the place.
 
 ## Why:
