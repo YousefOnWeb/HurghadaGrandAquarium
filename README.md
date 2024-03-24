@@ -2,7 +2,7 @@
 The Hurghada Grand Aquarium is one of the attractive places in Hurghada, Egypt that that has attracted many families over years and still making people have fun.<br> This webpage is an imaginary, super-simple, landing page for the place.
 
 ## Why:
-* The purpose of making this webpage is introducing myself to basic characteristics of HTML, CSS, Raw JavaScript, and the Document Object Model (DOM).
+* The purpose of making this webpage was introducing myself to basic characteristics of HTML, CSS, Raw JavaScript, and the Document Object Model (DOM).
 
 ## How does making this page introduce me to the mentioned above:
 ### HTML:
