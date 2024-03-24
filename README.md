@@ -4,11 +4,6 @@ The Hurghada Grand Aquarium is one of the attractive places in Hurghada, Egypt t
 ## Why:
 * The purpose of making this webpage was introducing myself to basic characteristics of HTML, CSS, Raw JavaScript, and the Document Object Model (DOM).
 
-## How does making this page introduce me to the mentioned above:
-### HTML:
-* To from the 'skeleton' of the page (i.e. specify the main design elements and their basic layout).
-### CSS:
-* To give those elements their style
 ### JavaScript and The DOM:
 The DOM is leveraged using JavaScript:
 * To make the webpage changes its appearance according to how the user moves in it.
